@@ -51,13 +51,13 @@
 .band-card {
   display: flex;
   flex-direction: column;
-}
-.card__info {
-  color: black;
-  background-color: white;
-  padding: 15px;
-}
 
+  .card__info {
+    color: black;
+    background-color: white;
+    padding: 15px;
+  }
+}
 .btn {
   border: none;
   background-color: #333;

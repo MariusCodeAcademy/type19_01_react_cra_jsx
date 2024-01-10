@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from './components/layout/Header';
 import ToursSection from './components/sections/ToursSection';
 
