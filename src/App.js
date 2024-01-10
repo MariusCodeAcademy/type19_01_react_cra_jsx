@@ -1,4 +1,5 @@
 import './App.scss';
+import './responsive.css';
 import Header from './components/layout/Header';
 import ToursSection from './components/sections/ToursSection';
 
