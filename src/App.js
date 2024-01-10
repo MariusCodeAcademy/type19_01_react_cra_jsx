@@ -1,3 +1,4 @@
+import Card1 from './components/Card1';
 import './App.css';
 
 function Btn() {
@@ -7,22 +8,6 @@ function Btn() {
 }
 
 const title = <h3 className='card__title'>New York</h3>;
-
-function SingleCard1() {
-  return (
-    <li className='band-card'>
-      <img className='card__img' src='/img/newyork.jpg' alt='paris' />
-      <div className='card__info'>
-        <h3 className='card__title'>New York</h3>
-        <p className='card__date'>Fri 27 Nov 2016</p>
-        <p className='cart__text'>
-          Praesent tincidunt sed tellus ut rutrum sed vitae justo.
-        </p>
-        <Btn />
-      </div>
-    </li>
-  );
-}
 
 function App() {
   const mainTitle = 'Turo datos';
@@ -35,7 +20,7 @@ function App() {
           <p className='section__subtitle'>Remember to book your tickets!</p>
 
           <ul className='unlisted grid'>
-            <SingleCard1 />
+            <Card1 />
           </ul>
         </div>
       </section>
