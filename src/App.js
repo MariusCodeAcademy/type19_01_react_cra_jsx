@@ -2,6 +2,7 @@ import Card1 from './components/Card1';
 import Card2 from './components/Card2';
 import './App.css';
 
+// iskelti mygtuka i ui/Btn.js
 function Btn() {
   const btnName = 'Pirkti bilietus';
 
@@ -23,6 +24,7 @@ function App() {
           <ul className='unlisted grid'>
             <Card1 />
             <Card2 />
+            {/* import card3 */}
           </ul>
         </div>
       </section>

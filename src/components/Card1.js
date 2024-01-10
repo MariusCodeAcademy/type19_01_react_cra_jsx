@@ -13,6 +13,7 @@ export default function Card1() {
         <p className='cart__text'>
           Praesent tincidunt sed tellus ut rutrum sed vitae justo.
         </p>
+        {/* panaudoti btn is ui papkes  */}
         <button className='btn'>Buy</button>
       </div>
     </li>
