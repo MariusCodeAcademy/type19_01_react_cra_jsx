@@ -4,14 +4,7 @@ import './App.css';
 import Header from './components/layout/Header';
 import Card3 from './components/Card3';
 
-// iskelti mygtuka i ui/Btn.js
-function Btn() {
-  const btnName = 'Pirkti bilietus';
-
-  return <button className='btn'>{btnName}</button>;
-}
-
-const title = <h3 className='card__title'>New York</h3>;
+// const title = <h3 className='card__title'>New York</h3>;
 
 function App() {
   const mainTitle = 'Turo datos';

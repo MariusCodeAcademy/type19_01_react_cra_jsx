@@ -1,3 +1,5 @@
+import Btn from './ui/Btn';
+
 export default function Card1() {
   const cardData = {
     town: 'New York',
@@ -14,7 +16,7 @@ export default function Card1() {
           Praesent tincidunt sed tellus ut rutrum sed vitae justo.
         </p>
         {/* panaudoti btn is ui papkes  */}
-        <button className='btn'>Buy</button>
+        <Btn />
       </div>
     </li>
   );

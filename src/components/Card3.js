@@ -1,3 +1,5 @@
+import Btn from './ui/Btn';
+
 export default function Card3() {
   const cardData = {
     town: 'San Fran',
@@ -13,7 +15,7 @@ export default function Card3() {
         <p className='cart__text'>
           Praesent tincidunt sed tellus ut rutrum sed vitae justo.
         </p>
-        <button className='btn'>Buy</button>
+        <Btn />
       </div>
     </li>
   );
