@@ -1,6 +1,8 @@
 import Card1 from './components/Card1';
 import Card2 from './components/Card2';
 import './App.css';
+import Header from './components/layout/Header';
+import Card3 from './components/Card3';
 
 // iskelti mygtuka i ui/Btn.js
 function Btn() {
@@ -16,6 +18,7 @@ function App() {
 
   return (
     <div className='App'>
+      <Header />
       <section className='bands-section'>
         <div className='container'>
           <h2 className='section__title'>{mainTitle}</h2>
@@ -24,7 +27,7 @@ function App() {
           <ul className='unlisted grid'>
             <Card1 />
             <Card2 />
-            {/* import card3 */}
+            <Card3 />
           </ul>
         </div>
       </section>

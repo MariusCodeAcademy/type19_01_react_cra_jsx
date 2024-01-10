@@ -1,3 +1,27 @@
+/* headeris */
+
+.logo {
+  background-color: #fff;
+  padding: 10px;
+  font-weight: normal;
+}
+.logo span {
+  font-weight: bold;
+}
+
+/* nav */
+.mainNav {
+  background-color: #333;
+  color: #fff;
+}
+.navLink {
+  padding: 8px 16px;
+  display: inline-block;
+}
+.navLink:hover {
+  background-color: #797575;
+}
+
 .bands-section {
   background-color: black;
   color: white;
