@@ -1,0 +1,16 @@
+.bands-section {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section__title {
+  text-align: center;
+}
+
+.section__subtitle {
+  text-align: center;
+  color: lightgray;
+  font-style: italic;
+}
