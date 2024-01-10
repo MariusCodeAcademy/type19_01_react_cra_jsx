@@ -1,4 +1,5 @@
 import Card1 from './components/Card1';
+import Card2 from './components/Card2';
 import './App.css';
 
 function Btn() {
@@ -21,6 +22,7 @@ function App() {
 
           <ul className='unlisted grid'>
             <Card1 />
+            <Card2 />
           </ul>
         </div>
       </section>
